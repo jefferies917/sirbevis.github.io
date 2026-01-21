@@ -15,7 +15,7 @@
 
     {% if page.hero_image %}
     <section class="hero">
-        <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: page.title }}">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
     </section>
     {% endif %}
 

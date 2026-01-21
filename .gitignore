@@ -1,0 +1,11 @@
+# Jekyll build output
+_site/
+
+# Bundler
+.bundle/
+vendor/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/

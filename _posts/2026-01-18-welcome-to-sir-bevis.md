@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Sir Bevis!
-hero_image: /sirbevis.github.io/assets/images/lodge.jpg
+hero_image: /assets/images/lodge.jpg
 hero_alt: Our Lodge Hall
 ---
 

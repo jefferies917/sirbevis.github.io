@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Provincial Visit
-hero_image: /sirbevis.github.io/assets/images/province.jpg
+hero_image: /assets/images/province.jpg
 hero_alt: Provincial Visit
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: History
 permalink: /history/
-hero_image: /sirbevis.github.io/assets/images/lodge.jpg
+hero_image: /assets/images/lodge.jpg
 hero_alt: Our Lodge Hall
 ---
 
