@@ -1,0 +1,277 @@
+/* -------------------------
+   Base styles
+-------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+    color: #1f2933;
+    background-color: #ffffff;
+}
+
+/* -------------------------
+   Header
+-------------------------- */
+
+.site-header {
+    position: fixed;
+    top: 0;
+    /* height: 4rem; 53.906 pixels */
+    width: 100%;
+    background-color: rgba(13, 37, 72, 0.92);
+    /* deep navy blue */
+    /* border-bottom: 1px solid #082c52; */
+    z-index: 1000;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.75rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-title a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1.25rem;
+    font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------
+   Page content
+-------------------------- */
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5.5rem 1rem 3rem;
+    /* top padding accounts for fixed header */
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+    color: #0b3a6e;
+}
+
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+}
+
+/* -------------------------
+   Footer
+-------------------------- */
+
+.site-footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+/* -------------------------
+   Responsive tweaks
+-------------------------- */
+
+@media (max-width: 700px) {
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-nav {
+        margin-top: 0.5rem;
+    }
+
+    .site-nav a {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+}
+
+/* -------------------------
+   Hero banner
+-------------------------- */
+
+.hero {
+    margin-top: 54px;
+    /* accounts for fixed header */
+}
+
+.hero img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Push content down when hero exists */
+.page-content {
+    padding-top: 2rem;
+}
+
+/* -------------------------
+   Mobile navigation
+-------------------------- */
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+    .header-inner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-left: auto;
+    }
+
+    .site-nav {
+        display: none;
+        width: 100%;
+        margin-top: 0.75rem;
+    }
+
+    .site-nav.open {
+        display: block;
+    }
+
+    .site-nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .hero {
+        margin-top: 62px;
+        /* accounts for fixed header */
+    }
+}
+
+/* -------------------------
+   Footer
+-------------------------- */
+
+.site-footer {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+.site-footer a {
+    color: #0b3a6e;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Social links */
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social li {
+    margin: 0;
+}
+
+.footer-author {
+    margin: 0.5rem 0;
+}
+
+.footer-copy {
+    margin: 0.5rem 0 0;
+}
+
+/* -------------------------
+   News list
+-------------------------- */
+
+.news-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.news-title {
+    margin-bottom: 0.25rem;
+}
+
+.news-title a {
+    color: #0b3a6e;
+    text-decoration: none;
+}
+
+.news-title a:hover {
+    text-decoration: underline;
+}
+
+.news-meta {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+
+.news-excerpt {
+    font-size: 0.95rem;
+}
+
+/* -------------------------
+   Post pages
+-------------------------- */
+
+.post-header {
+    margin-bottom: 2rem;
+}
+
+.post-date {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.post-content h1 {
+    margin-top: 2rem;
+}

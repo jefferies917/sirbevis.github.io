@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Welcome to Sir Bevis!
+title: Sir Bevis Website is up!
 hero_image: /sirbevis.github.io/assets/images/lodge.jpg
 hero_alt: Our Lodge Hall
 ---
 
-Our last meeting was well attended
+We have a new website!
 <!-- more -->
 
-This will not appear in the preview
+Keep up to date with events here

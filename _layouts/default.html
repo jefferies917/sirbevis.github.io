@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 
@@ -11,11 +13,26 @@
 
     {% include header.html %}
 
-    <main>
+    {% if page.hero_image %}
+    <section class="hero">
+        <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: page.title }}">
+    </section>
+    {% endif %}
+
+    <main class="page-content">
         {{ content }}
     </main>
 
     {% include footer.html %}
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.site-nav');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
 
 </body>
 

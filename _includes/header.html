@@ -1,9 +1,22 @@
 <header class="site-header">
-    <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/history/' | relative_url }}">History</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a href="{{ '/news/' | relative_url }}">News</a>
-    </nav>
+    <div class="header-inner">
+
+        <div class="site-title">
+            <a href="{{ '/' | relative_url }}">
+                {{ site.title }}
+            </a>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav class="site-nav">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/about/' | relative_url }}">About</a>
+            <a href="{{ '/history/' | relative_url }}">History</a>
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+            <a href="{{ '/news/' | relative_url }}">News</a>
+        </nav>
+    </div>
 </header>
