@@ -275,3 +275,43 @@ body {
 .post-content h1 {
     margin-top: 2rem;
 }
+
+/* -------------------------
+   404 page
+-------------------------- */
+
+.page-404 {
+    text-align: center;
+    padding: 100px 20px;
+    color: #003366;
+    /* dark blue */
+}
+
+.page-404 h1 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+.page-404 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.page-404 p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.page-404 .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0055a5;
+    /* lodge blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.page-404 .button:hover {
+    background-color: #003366;
+}

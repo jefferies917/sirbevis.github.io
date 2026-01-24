@@ -1,4 +1,5 @@
-title: Sir Bevis Lodge 5072
+title: Sir Bevis Lodge
+description: Sir Bevis Lodge is a Freemasons lodge dedicated to fellowship, charity, and tradition.
 author:
   name: Luke Jefferies
   email: lukejefferiesuk@gmail.com
@@ -6,3 +7,6 @@ social:
   facebook: https://www.facebook.com/groups/1025304600904180/
   email: lukejefferiesuk@gmail.com
 excerpt_separator: "<!-- more -->"
+permalink: /news/:title/
+url: https://jefferies917.github.io
+baseurl: /sirbevis.github.io

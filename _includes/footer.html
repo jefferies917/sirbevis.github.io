@@ -2,15 +2,13 @@
 
     {% include social.html %}
 
-    {% if site.author.name && site.author.email %}
     <p class="footer-author">
-        Site author: {{ site.author.name }} -
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    </p>
-    {% endif %}
+        © {{ site.time | date: "%Y" }} {{ site.title }} -
 
-    <p class="footer-copy">
-        © {{ site.time | date: "%Y" }} {{ site.title }}
+        {% if site.author.name && site.author.email %}
+        Site author: <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
+        {% endif %}
+
     </p>
 
 </footer>
