@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Home
-hero_image: /assets/images/hall.jpg
-hero_alt: Sir Bevis Lodge Hall exterior - Southampton Temple
+hero_image: /assets/images/lodge.jpg
+hero_alt: Our Lodge Hall - Southampton
 ---
 
 # Your home of Freemasonry
 
-Welcome to Sir Bevis Lodge No. 5072, a Freemasonry Lodge meeting in Southampton and the Isle of Wight.
+Welcome to Sir Bevis Lodge No. 5072, a Freemasonry Lodge meeting at Southampton in the province of Hampshire and the Isle of Wight.
 
 Freemasonry is one of the world’s *oldest secular social and charitable organisations*, with origins that trace back to the skilled stonemasons who built many of the great castles and cathedrals of medieval Europe. While its history is rich, Freemasonry today is very much a modern organisation, focused on **personal development**, **friendship** and **service to others**.
 

@@ -3,7 +3,7 @@ layout: default
 title: History
 permalink: /history/
 hero_image: /assets/images/temple.jpg
-hero_alt: Sir Bevis Lodge Hall interior
+hero_alt: Sir Bevis Lodge Hall interior - Southampton Temple
 ---
 
 # History of the Lodge

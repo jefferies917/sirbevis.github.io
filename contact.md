@@ -2,8 +2,8 @@
 layout: default
 title: Contact Us
 permalink: /contact/
-hero_image: /assets/images/lodge.jpg
-hero_alt: Our Lodge Hall - Southampton
+hero_image: /assets/images/hall.jpg
+hero_alt: Sir Bevis Lodge Hall exterior - Southampton Temple
 ---
 
 # Contact Us

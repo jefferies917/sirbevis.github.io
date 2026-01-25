@@ -3,7 +3,7 @@ layout: default
 title: About Our Lodge
 permalink: /about/
 hero_image: /assets/images/lodge.jpg
-hero_alt: Our Lodge Hall
+hero_alt: Our Lodge Hall - Southampton
 ---
 
 # About Our Lodge
