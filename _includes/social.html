@@ -1,9 +1,17 @@
 <ul class="social">
     {% if site.social.facebook %}
-    <li><a href="{{ site.social.facebook }}">Facebook Group</a></li>
+    <li>
+        <a href="{{ site.social.facebook }}">
+            <img src="{{ '/assets/images/social/facebook.svg' | relative_url }}" alt="Facebook" class="social-icon">
+        </a>
+    </li>
     {% endif %}
 
     {% if site.social.email %}
-    <li><a href="mailto:{{ site.social.email }}">Email Us</a></li>
+    <li>
+        <a href="mailto:{{ site.social.email }}">
+            <img src="{{ '/assets/images/social/email.svg' | relative_url }}" alt="Email" class="social-icon">
+        </a>
+    </li>
     {% endif %}
 </ul>

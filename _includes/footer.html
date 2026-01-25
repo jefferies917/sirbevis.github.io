@@ -3,12 +3,15 @@
     {% include social.html %}
 
     <p class="footer-author">
+        Southampton Masonic Hall, Albion Place, Southampton, SO14 2DD
+    </p>
+
+    <p class="footer-author">
         © {{ site.time | date: "%Y" }} {{ site.title }} -
 
         {% if site.author.name && site.author.email %}
         Site author: <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
         {% endif %}
-
     </p>
 
 </footer>
