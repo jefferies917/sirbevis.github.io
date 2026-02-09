@@ -8,5 +8,5 @@ social:
   email: test@gmail.com
 excerpt_separator: "<!-- more -->"
 permalink: /news/:title/
-url: https://jefferies917.github.io
-baseurl: /sirbevis.github.io
+url: "https://www.sirbevislodge.co.uk"
+baseurl: ""
