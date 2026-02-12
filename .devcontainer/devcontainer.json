@@ -6,5 +6,12 @@
         4000
     ],
     "postCreateCommand": "gem install bundler && bundle install",
-    "postStartCommand": "bundle exec jekyll serve --livereload --host 0.0.0.0 --baseurl ''"
+    "postStartCommand": "bundle exec jekyll serve --livereload --host 0.0.0.0 --baseurl ''",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
 }

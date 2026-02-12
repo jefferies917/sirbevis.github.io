@@ -13,6 +13,7 @@ We are always pleased to hear from visitors, prospective members, and friends of
 ## Get in touch
 
 - **Email the Lodge:**  
+  Contact our Secretary, **Martin Ball**  
   [{{ site.social.email }}](mailto:{{ site.social.email }})
 
 - **Membership enquiries:**  
