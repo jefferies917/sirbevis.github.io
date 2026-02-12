@@ -13,7 +13,7 @@ We are always pleased to hear from visitors, prospective members, and friends of
 ## Get in touch
 
 - **Email the Lodge:**  
-  [test@email.com](mailto:{{ site.social.email }})
+  [{{ site.social.email }}](mailto:{{ site.social.email }})
 
 - **Membership enquiries:**  
   Contact our Membership Officer, **Neill Wicks**  

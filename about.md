@@ -2,8 +2,10 @@
 layout: default
 title: About Our Lodge
 permalink: /about/
-hero_image: /assets/images/lodge.jpg
-hero_alt: Our Lodge Hall - Southampton
+# hero_image: /assets/images/lodge.jpg
+# hero_alt: Our Lodge Hall - Southampton
+hero_image: /assets/images/temple.jpg
+hero_alt: Sir Bevis Lodge Hall interior - Southampton Temple
 ---
 
 # About Our Lodge

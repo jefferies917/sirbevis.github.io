@@ -1,8 +1,10 @@
 ---
 layout: post
 title: New Lodge Website Launched!
-hero_image: /assets/images/lodge.jpg
-hero_alt: Our Lodge Hall
+# hero_image: /assets/images/lodge.jpg
+# hero_alt: Our Lodge Hall
+hero_image: /assets/images/temple.jpg
+hero_alt: Sir Bevis Lodge Hall interior - Southampton Temple
 ---
 
 Sir Bevis Lodge is pleased to announce the launch of its **new website!**

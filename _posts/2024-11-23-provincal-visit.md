@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Provincial Visit
-hero_image: /assets/images/province.jpg
-hero_alt: Provincial Visit
+# hero_image: /assets/images/province.jpg
+# hero_alt: Provincial Visit
+hero_image: /assets/images/temple.jpg
+hero_alt: Sir Bevis Lodge Hall interior - Southampton Temple
 ---
 
 Another evening and another Official Visit, this time **APGM Chris Lockwood-Mason** accompanied by his escort visited Sir Bevis Lodge No: 5072.
