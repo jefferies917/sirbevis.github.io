@@ -16,4 +16,4 @@ At Sir Bevis Lodge, we take our ceremonial traditions seriously, as they connect
 
 We are a very *welcoming* Lodge. Sir Bevis is well suited to those who value tradition but also enjoy getting to know people, taking part in Lodge life, and **sharing a meal and a laugh together**. If you appreciate ceremony as much as camaraderie, you’ll feel very much at home with us.
 
-If you want to learn more or enquire for membership then please contact us here. If you want to learn more about Freemasonry in general then the [Grand Lodge website](https://www.ugle.org.uk/) is a great place to start.
+If you want to learn more or enquire for membership then please [contact us here]({{ '/contact/' | relative_url }}). If you want to learn more about Freemasonry in general then the [Grand Lodge website](https://www.ugle.org.uk/) is a great place to start.
