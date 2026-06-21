@@ -6,7 +6,7 @@ title: Home
 hero_image: /assets/images/temple.jpg
 hero_alt: Sir Bevis Lodge Hall interior - Southampton Temple
 ---
-
+<!-- TODO put up nicer pictures -->
 # Your home of Freemasonry
 
 Welcome to Sir Bevis Lodge No. 5072, a Freemasonry Lodge meeting at Southampton in the province of Hampshire and the Isle of Wight.
@@ -40,6 +40,8 @@ SO14 2DD
 ## Charity Work
 
 Charity lies at the heart of Freemasonry, and Sir Bevis Lodge is proud to support a **wide range of charitable causes** at local and national level. Through fundraising events, voluntary contributions, and the personal commitment of our members, we aim to make a *positive difference within our community*, supporting those in need and contributing to causes that reflect our values of **compassion**, **integrity**, and **service**.
+
+We also take great pride in providing support to **Widows of past Brothers** which you can learn more about [here]({{ '/amity/' | relative_url }}).
 
 ## Contact Information
 
